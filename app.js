@@ -1,4 +1,4 @@
-var engine = startCopperLichtFromFile('3darea', 'copperlichtdata/app.ccbjs');
+var engine = startCopperLichtFromFile('3darea', 'copperlichtdata/app.ccbz');
 var cubeSceneNode = null;
 
 // this is called when loading the 3d scene has finished
