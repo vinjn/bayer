@@ -1,4 +1,6 @@
-var engine = startCopperLichtFromFile('3darea', 'copperlichtdata/app.ccbz');
+var engine = startCopperLichtFromFile('3darea', 'copperlichtdata/app.ccbz', 
+'Loading $PROGRESS$...<br/><br/><img style="max-width:50%" src="copperlichtdata/bayer.png" />', 'Error: This browser does not support WebGL (or it is disabled).<br/>See <a href=\"http://www.ambiera.com/copperlicht/browsersupport.html\">here</a> for details.', true, true, "#000000");
+
 var cubeSceneNode = null;
 
 // this is called when loading the 3d scene has finished
